@@ -1,6 +1,6 @@
 @font-face {
     font-family: inter;
-    src: url(/Inter-Regular.ttf);
+    src: url(./Inter-Regular.ttf);
 }
 * {
     margin: 0;
