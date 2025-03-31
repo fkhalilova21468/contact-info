@@ -15,9 +15,20 @@ body {
     font-family: "Inter", sans-serif;
 }
 
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 300px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        width: 450px;
+    }
+}
+
 .container {
     margin: 40px 0;
-    max-width: 350px;
     margin-inline: auto;
     background-color: var(--Grey-800);
     padding-bottom: 1rem;
